@@ -47,10 +47,10 @@ The typed API mirrors the Sass functions:
 ```ts
 import { govukColour, govukFunctionalColour, govukSpacing } from '@govuk-mui/react';
 
-govukColour('blue');                 // "#1d70b8"
-govukColour('blue', 'tint-95');      // "#f4f8fb"
-govukFunctionalColour('focus');      // "var(--govuk-focus-colour, #ffdd00)"
-govukSpacing(3);                     // "15px"
+govukColour('blue'); // "#1d70b8"
+govukColour('blue', 'tint-95'); // "#f4f8fb"
+govukFunctionalColour('focus'); // "var(--govuk-focus-colour, #ffdd00)"
+govukSpacing(3); // "15px"
 ```
 
 Regenerate after upgrading govuk-frontend; the generated file is committed so

@@ -106,7 +106,9 @@ export const Spacing: Story = {
               <code>{px}px</code>
             </td>
             <td className="govuk-table__cell" style={{ width: '100%' }}>
-              <span style={{ display: 'inline-block', height: 16, width: px, background: '#1d70b8' }} />
+              <span
+                style={{ display: 'inline-block', height: 16, width: px, background: '#1d70b8' }}
+              />
             </td>
           </tr>
         ))}
