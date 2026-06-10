@@ -48,6 +48,16 @@ function govukAssetsPlugin(): Plugin {
 
 export default defineConfig({
   plugins: [react(), govukAssetsPlugin()],
+  resolve: {
+    alias: [
+      // Consume the component library source directly (see ADR 002), so
+      // library edits show up in the prototype without a build step.
+      {
+        find: /^@govuk-mui\/react$/,
+        replacement: path.resolve(__dirname, '../../packages/components/src/index.ts'),
+      },
+    ],
+  },
   css: {
     preprocessorOptions: {
       scss: {
