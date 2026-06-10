@@ -1,0 +1,18 @@
+// Single stylesheet entry for @govuk-mui/react.
+//
+// All visual styling comes from the official govuk-frontend Sass — nothing is
+// recreated by hand. Components in this library render govuk-frontend's own
+// markup and class names, so importing this file once gives you the complete,
+// pixel-faithful GOV.UK look.
+//
+// FONT LICENSING: the GDS Transport font is only licensed for use on the
+// gov.uk domain, so this library falls back to Arial. A real government
+// service running on gov.uk should remove the $govuk-font-family override
+// below (restoring the default, which includes "GDS Transport") and serve the
+// font files from $govuk-assets-path. See the repository README for details.
+@use 'govuk-frontend/dist/govuk' as govuk with (
+  $govuk-font-family: (
+    arial,
+    sans-serif,
+  )
+);
