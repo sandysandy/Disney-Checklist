@@ -29,7 +29,7 @@ every level, not just superficially:
   Material means disabling `Ripple`, `Elevation`, `borderRadius`, overriding
   every component's `styleOverrides`, and fighting Material's spacing and
   state-layer system — a permanent maintenance tax on every MUI upgrade.
-- **Markup semantics**: GOV.UK components have *normative markup* (e.g. radios
+- **Markup semantics**: GOV.UK components have _normative markup_ (e.g. radios
   are real `<input type="radio">` elements inside a `<fieldset>` with a
   `<legend>`; tabs are a `<ul>` of links that fall back to in-page navigation
   without JavaScript; the select component is a native `<select>`). Material

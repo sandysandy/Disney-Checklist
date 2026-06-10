@@ -39,7 +39,7 @@ Key choices:
   tooling; plain workspace scripts keep the prototype kit approachable.
 - **Storybook lives inside the library package**, with stories colocated next
   to each component, so docs stay adjacent to implementation.
-- **The starter app consumes library *source*** (`@govuk-mui/react` workspace
+- **The starter app consumes library _source_** (`@govuk-mui/react` workspace
   link resolves to `src/` via the `./styles` export and Vite), so prototype
   authors see library changes instantly without a build step. The library also
   builds proper ESM + `.d.ts` + compiled CSS (`dist/`) for publication.
