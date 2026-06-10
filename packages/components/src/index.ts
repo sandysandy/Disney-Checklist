@@ -1,4 +1,5 @@
 export * from './tokens';
+export * from './patterns';
 
 export * from './components/Accordion';
 export * from './components/BackLink';
